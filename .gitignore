@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+BUILD_SUMMARY.md
+DEPLOYMENT_GUIDE.md
+FINAL_SUMMARY.txt
+FLASHSALE_ANALYSIS.md
+FLASHSALE_QUICK_SUMMARY.txt
+PORTFOLIO_GUIDE.md
+PORTFOLIO_UPDATES.md
+PROJECT_COMPLETE.md

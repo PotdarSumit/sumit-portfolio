@@ -1,3 +1,4 @@
+
 import { ArrowRight, Download, Zap } from 'lucide-react';
 
 interface HeroProps {
@@ -41,7 +42,7 @@ export default function Hero({ setActiveSection }: HeroProps) {
               </h1>
 
               <p className="text-xl text-slate-300 max-w-2xl leading-relaxed">
-                Entry-level software engineer passionate about building robust, scalable backend systems. 
+                Entry-level software engineer passionate about building robust, scalable backend systems.
                 Specialized in microservices, payment processing, and cloud architectures.
               </p>
             </div>
@@ -71,8 +72,10 @@ export default function Hero({ setActiveSection }: HeroProps) {
                 <span>Get In Touch</span>
                 <ArrowRight size={20} />
               </button>
+
               <a
-                href="mailto:Spotdar1001@gmail.com"
+                href="/resume.pdf"
+                download="Sumit_Potdar_Resume.pdf"
                 className="flex items-center justify-center space-x-2 px-8 py-3 rounded-lg bg-slate-800/50 border border-slate-600 text-white font-semibold hover:bg-slate-700/50 transition-all duration-300"
               >
                 <Download size={20} />
